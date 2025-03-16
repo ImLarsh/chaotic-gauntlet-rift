@@ -1,0 +1,12 @@
+
+name: ChaoticGauntlet
+version: '${project.version}'
+main: dev.lovable.chaoticgauntlet.ChaoticGauntlet
+api-version: '1.21'
+authors: [Lovable]
+description: A legendary gauntlet that grants insane, unpredictable abilities
+commands:
+  gauntlet:
+    description: Main command for the Chaotic Gauntlet
+    usage: /<command> [give|reload]
+    permission: chaoticgauntlet.admin

@@ -1,0 +1,57 @@
+
+# Chaotic Gauntlet Configuration
+
+# Time in seconds between power changes
+power-change-interval: 60
+
+# Whether to enable PvP mode (transfer on hit)
+pvp-mode-enabled: true
+
+# Whether to enable combo system (stacking effects)
+combo-system-enabled: true
+
+# Minimum players needed for global effects
+global-effect-min-players: 3
+
+# List of powers and their settings
+powers:
+  gravity-flip:
+    enabled: true
+    duration: 10
+  anvil-rain:
+    enabled: true
+    anvil-count: 5
+    radius: 10
+  lava-walker:
+    enabled: true
+    radius: 2
+    duration: 5
+  midas-touch:
+    enabled: true
+    duration: 30
+  explosive-farts:
+    enabled: true
+    explosion-power: 1
+  dimension-glitch:
+    enabled: true
+    teleport-distance: 50
+  inverted-controls:
+    enabled: true
+    duration: 15
+  speed-demon:
+    enabled: true
+    speed-level: 10
+
+# Global effects settings
+global-effects:
+  meteor-shower:
+    enabled: true
+    duration: 30
+    meteor-count: 20
+  charged-creepers:
+    enabled: true
+    duration: 60
+    creeper-count: 10
+  lightning-break:
+    enabled: true
+    duration: 30
